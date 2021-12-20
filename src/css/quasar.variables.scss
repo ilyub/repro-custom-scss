@@ -1,3 +1,5 @@
+@use "sass:map";
+
 $primary   : #1976D2;
 $secondary : #26A69A;
 $accent    : #9C27B0;
@@ -9,4 +11,4 @@ $negative  : #C10015;
 $info      : #31CCEC;
 $warning   : #F2C037;
 
-$my-var : 50px !default;
+$my-var    : map.get($space-xl, "y") !default;
