@@ -1,12 +1,5 @@
 <template>
-  <q-page class="row items-center justify-evenly">
-    <example-component
-      title="Example component"
-      active
-      :todos="todos"
-      :meta="meta"
-    ></example-component>
-  </q-page>
+  <div class="some"></div>
 </template>
 
 <script lang="ts">
@@ -47,3 +40,10 @@ export default defineComponent({
   }
 });
 </script>
+
+<style scoped lang="scss">
+.some {
+  background: red;
+  height: $my-var;
+}
+</style>
